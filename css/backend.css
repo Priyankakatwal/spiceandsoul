@@ -1,0 +1,178 @@
+/* CSS for all*/
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1px; 
+}
+.wrapper-order{
+     width: 100%;
+    margin: 0;
+    padding: 1px; 
+}
+.text-center{
+    text-align: center;
+}
+h1{
+    font-size: 20px;
+}
+/*CSS for menu*/
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 2%;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #ff4763;;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color:crimson;
+}
+.menu{
+    text-align: center;
+}
+
+
+/*css for main content of home*/
+.maincontent{
+    background-color: #f1f2f6;
+    padding: 50px;
+}
+.wrapper h1{
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+.wrapper-order h1{
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+.dash{
+  display: inline-block;
+    width: 22%;
+    margin: 1%;
+    padding: 30px 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.dash h1 {
+    font-size: 32px;
+    color: #007BFF;
+    margin: 0;
+}
+.dash p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/*css for main content of admin*/
+table {
+   
+    border-collapse: collapse; 
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px; /* Add padding to make cells larger */
+    text-align: center; /* Center text in the table */
+ 
+}
+th{
+    border-bottom: 1px solid black;
+}
+.tbl_full{
+    width: 100%;
+ 
+}
+
+.btn-add{
+    background-color:  #4CAF50; /* Green */;
+    padding: 1%;
+    color: rgba(255, 255, 255, 0.959);
+    text-decoration: none;
+}
+.btn-delete{
+    background-color: #f44336;
+    padding: 2%;
+    color: rgba(255, 255, 255, 0.959);
+     text-decoration: none;
+}
+
+.btn-update-order{
+    background-color: #3936f4;
+    padding: 8px;
+    color: rgba(255, 255, 255, 0.959);
+     text-decoration: none;
+ 
+}
+
+.btn-delete-order{
+    background-color: #f44336;
+    padding: 8px;
+    color: rgba(255, 255, 255, 0.959);
+     text-decoration: none;
+ 
+}
+.action-buttons {
+    display: flex;
+    gap: 8px; /* Adjust spacing between buttons */
+}
+
+.btn-update{
+    background-color: #3936f4;
+    padding: 2%;
+    color: rgba(255, 255, 255, 0.959);
+     text-decoration: none;
+ 
+}
+.btn-pwd{
+     background-color: #009688;
+    padding: 2%;
+    color: rgba(255, 255, 255, 0.959);
+     text-decoration: none;
+}
+.btn-add:hover{
+    background-color:  #39c43e;
+}
+.btn-pwd:hover{
+    background-color:  #00796B;
+}
+.btn-delete:hover{
+    background-color: #f53022;;
+}
+.btn-update:hover{
+    background-color:  #0b08c0;
+}
+/*css for admin_add*/
+
+/*css for footer*/
+.footer{
+    background-color: #ff4763;
+    color: white;
+
+}
+/*css for login*/
+.login{
+    border: 1px solid black;
+    margin: 10% auto;
+    width:20%;
+    padding: 2%;
+}
